@@ -30,5 +30,5 @@ Here are some ideas to get you started:
 </p> 
 
 ![Doyeon's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddxyxxn&show_icons=true&theme=transparent)
-[![Doyeon's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ddxyxxn)](https://github.com/anuraghazra/github-readme-stats)
+![Doyeon's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ddxyxxn)](https://github.com/anuraghazra/github-readme-stats)
 

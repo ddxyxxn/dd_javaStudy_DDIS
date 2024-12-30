@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 <p align='center'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Doyeon's%20GitHub&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Welcome%to%20My%20World&descAlignY=51&descAlign=62"/>
 </p>
 <p align='center'>
   <a href="https://github.com/kyechan99/capsule-render/labels/Idea">

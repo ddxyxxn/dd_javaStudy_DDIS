@@ -28,4 +28,5 @@ Here are some ideas to get you started:
     <img src="https://img.shields.io/badge/Generator%20-%235c86fa.svg?&style=for-the-badge&&logoColor=white"/>
   </a>
 </p> 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ddxyxxn)](https://github.com/anuraghazra/github-readme-stats)
+
+![Doyeon's GitHub stats](https://github-readme-stats.vercel.app/api?username=ddxyxxn&show_icons=true&theme=transparent)

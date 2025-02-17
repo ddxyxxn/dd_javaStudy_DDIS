@@ -1,4 +1,4 @@
-package chap03;
+package W01.chap03;
 
 public class E3_7 {
     public static void main(String[]args){

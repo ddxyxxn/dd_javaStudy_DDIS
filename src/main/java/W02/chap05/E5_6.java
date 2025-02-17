@@ -1,4 +1,4 @@
-package chap05;
+package W02.chap05;
 
 public class E5_6 {
     public static void main(String[] args) {

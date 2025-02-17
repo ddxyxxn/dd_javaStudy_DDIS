@@ -1,4 +1,4 @@
-package chap02;
+package W01.chap02;
 
 public class E2_5 {
     /*

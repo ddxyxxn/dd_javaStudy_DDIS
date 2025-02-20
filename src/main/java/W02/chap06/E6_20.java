@@ -8,28 +8,14 @@ public class E6_20 {
         int[] shuffled = new int[arr.length];
 
         for (int i = 0; i < arr.length; i++) {
-            shuffled[i] = (int) (Math.random() * arr.length + arr[0]);
-            for (int j = 1; j < arr.length; j++) {
-                if (shuffled[i] == shuffled[j]) {
-                    j--;
+            shuffled[i] = (int) (Math.random() * (arr.length - 1) + 1);
+            for (int j = 0; j < i; j++) {
+                if (shuffled[j] == shuffled[i]) {
+                    i = j-1;
                 }
+                break;
             }
-            System.out.println(shuffled[i] );
         }
-
-
-//        int[] shuffled = arr.clone();
-//        int[] shuffled = new int[arr.length];
-//        int index = 0;
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = i + 1; j < arr.length; j++) {
-//                index = (int) (Math.random() * arr.length);
-//                shuffled[j] = arr[index];
-//            }
-//            if (shuffled[index] == shuffled[i]) {
-//                i--;
-//            }
-//        }
 
         return shuffled;
     }
@@ -42,8 +28,5 @@ public class E6_20 {
         int[] result = shuffle(original);
 
         System.out.println(Arrays.toString(result));
-        System.out.println(Arrays.toString(result));
-        System.out.println(Arrays.toString(result));
-
     }
 }

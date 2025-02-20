@@ -1,6 +1,6 @@
 package W02.chap06;
 
-public class E6_3_4 {
+public class E6_3_4_5 {
     public static void main(String[] args) {
 
         Student s = new Student();
@@ -18,7 +18,7 @@ public class E6_3_4 {
         //E6_5
         Student s2 = new Student("홍길동", 1, 1, 100, 60, 76);
 
-//        System.out.println(s2.info());
+        System.out.println(s2.info());
     }
 }
 
@@ -47,12 +47,12 @@ class Student {
     }
 
     public float getAverage() {
-        double avg = Math.round(((float) (kor + eng + math) / 3) / 10) * 10.0;
+        double avg = Math.round(((float) (kor + eng + math) / 3) * 10) / 10.0;
         return (float) avg;
     }
 
-    public void info() {
-        System.out.println(name + ", " + ban + ", " + no + ", " + kor + ", " + eng + ", " + math
-                            + ", " + getTotal() + ", " + getAverage());
+    public String info() {
+        return name + ", " + ban + ", " + no + ", " + kor + ", " + eng + ", " + math
+                            + ", " + getTotal() + ", " + getAverage();
     }
 }

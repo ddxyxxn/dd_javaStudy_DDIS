@@ -5,14 +5,17 @@ import java.util.Arrays;
 public class E6_23 {
 
     static int max(int[] arr) {
+        if (arr == null) {
+            return -999999;
+        }
+
         int maxNum = 0;
         for (int i = 0; i < arr.length; i++) {
             maxNum = Math.max(maxNum, arr[i]);
         }
 
-        if (arr.length == 0 || maxNum == null) {
-            return -999999;
-        }
+        if (arr.length == 0) {return -999999;}
+
         return maxNum;
     }
 

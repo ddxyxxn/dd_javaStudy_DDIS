@@ -13,16 +13,17 @@ public class E5_10 {
 
         for (int i = 0; i < src.length(); i++) {
             char ch = src.charAt(i);
-            if (!Character.isDigit(ch)) {
-                for (int j = 0; j < abcCode.length; j++) {
-                    if (ch == abcCode[j]) {
-                        result = "" + ch;
+
+            if (ch >= '0' && ch <= '9') {
+                for (int j = 0; j < numCode.length; j++) {
+                    if (ch == j+48) {
+                        result += numCode[j];
                     }
                 }
             } else {
-                for (int j = 0; j < numCode.length; j++) {
-                    if (ch == numCode[j]) {
-                        result = "" + ch;
+                for (int j = 0; j < abcCode.length; j++) {
+                    if (ch == j+97) {
+                        result += abcCode[j];
                     }
                 }
             }

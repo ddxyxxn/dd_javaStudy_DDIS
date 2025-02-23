@@ -21,10 +21,8 @@ public class E5_9 {
 
         for (int i = 0; i < star.length; i++) {
             for (int j = 0; j < star[i].length; j++) {
-                if (j == 4) break;
-                result[i][star.length - 1 - j] = star[j][i];
+                result[j][star.length - 1 - i] = star[i][j];
             }
-
         }
 
         for (int i = 0; i < result.length; i++) {
